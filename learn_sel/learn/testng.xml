@@ -1,0 +1,13 @@
+&lt;suite name="Test suite" &gt;
+ 
+ &lt;test name="tools qa" &gt;
+ 
+ &lt;classes&gt; 
+ 
+ &lt;class name="TestNG.NewTest" /&gt;
+ 
+ &lt;/classes&gt;
+ 
+ &lt;/test&gt;
+ 
+ &lt;/suite&gt;

@@ -1,0 +1,20 @@
+
+public class Practice {
+
+	public int function()
+	{
+		try
+		{
+			return 0;
+		
+		}
+		catch (Exception e)
+		{
+			return 1;
+		}
+		finally
+		{
+			return 2;
+		}
+	}
+}

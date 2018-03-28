@@ -1,0 +1,20 @@
+
+public class RemoveDuplicatesFromSortedArray {
+	public static void main(String[] args) {
+		
+	}
+
+	public boolean isDistinct(int[] arr,int j)
+	{
+		boolean distinct=true;
+		for (int i=0;i<j;i++)
+		{
+			if(arr[i]==arr[j])
+			{
+				distinct=false;
+				break;
+			}
+		}
+	return distinct;
+	}
+}

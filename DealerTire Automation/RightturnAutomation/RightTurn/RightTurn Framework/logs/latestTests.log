@@ -1,0 +1,81 @@
+15:16:33.841 [main :  ] FATAL BaseTest - Could not load environment CSV file at debugEnvironments.csv, falling back to default config.
+15:16:33.844 [main :  ] FATAL BaseTest - Message was: C:\Selenium\RTData\debugEnvironments.csv (The system cannot find the path specified)
+15:16:33.873 [pool-2-thread-2 : chrome * WINDOWS] INFO  dbug - Beginning Test debugTest[1: chrome null]
+15:16:33.873 [pool-2-thread-1 : firefox * WINDOWS] INFO  dbug - Beginning Test debugTest[0: firefox null]
+15:16:33.876 [pool-2-thread-2 : chrome * WINDOWS] INFO  dbug - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+15:16:33.876 [pool-2-thread-1 : firefox * WINDOWS] INFO  dbug - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+15:16:50.255 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] INFO  dbug - END
+15:16:52.073 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] INFO  dbug - Test debugTest[1: chrome null] succeeded.
+15:17:09.243 [pool-2-thread-1 : firefox 40.0 WINDOWS] INFO  dbug - END
+15:17:09.717 [pool-2-thread-1 : firefox 40.0 WINDOWS] INFO  dbug - Test debugTest[0: firefox null] succeeded.
+16:09:00.293 [main :  ] FATAL BaseTest - Could not load environment CSV file at debugEnvironments.csv, falling back to default config.
+16:09:00.295 [main :  ] FATAL BaseTest - Message was: C:\Selenium\RTData\debugEnvironments.csv (The system cannot find the path specified)
+16:09:00.319 [pool-2-thread-1 : firefox * WINDOWS] INFO  buildTests - Beginning Test ensureBaseTestWorks[0: firefox null]
+16:09:00.319 [pool-2-thread-2 : chrome * WINDOWS] INFO  buildTests - Beginning Test ensureBaseTestWorks[1: chrome null]
+16:09:00.321 [pool-2-thread-1 : firefox * WINDOWS] INFO  buildTests - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:09:00.321 [pool-2-thread-2 : chrome * WINDOWS] INFO  buildTests - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:09:01.742 [pool-2-thread-1 : firefox * WINDOWS] ERROR buildTests - Test ensureBaseTestWorks[0: firefox null] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+16:09:01.742 [pool-2-thread-2 : chrome * WINDOWS] ERROR buildTests - Test ensureBaseTestWorks[1: chrome null] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+16:10:57.235 [main :  ] FATAL BaseTest - Could not load environment CSV file at debugEnvironments.csv, falling back to default config.
+16:10:57.237 [main :  ] FATAL BaseTest - Message was: C:\Selenium\RTData\debugEnvironments.csv (The system cannot find the path specified)
+16:10:57.266 [pool-2-thread-2 : chrome * WINDOWS] INFO  buildTests - Beginning Test ensureBaseTestWorks[1: chrome null]
+16:10:57.269 [pool-2-thread-1 : firefox * WINDOWS] INFO  buildTests - Beginning Test ensureBaseTestWorks[0: firefox null]
+16:10:57.269 [pool-2-thread-1 : firefox * WINDOWS] INFO  buildTests - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:10:57.272 [pool-2-thread-2 : chrome * WINDOWS] INFO  buildTests - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:11:18.375 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] INFO  buildTests - Test ensureBaseTestWorks[1: chrome null] succeeded.
+16:11:21.885 [pool-2-thread-1 : firefox 40.0 WINDOWS] INFO  buildTests - Test ensureBaseTestWorks[0: firefox null] succeeded.
+16:13:13.036 [main :  ] FATAL BaseTest - Could not load environment CSV file at debugEnvironments.csv, falling back to default config.
+16:13:13.038 [main :  ] FATAL BaseTest - Message was: C:\Selenium\RTData\debugEnvironments.csv (The system cannot find the path specified)
+16:13:13.068 [pool-2-thread-1 : firefox * WINDOWS] INFO  dbug - Beginning Test debugTest[0: firefox null]
+16:13:13.068 [pool-2-thread-2 : chrome * WINDOWS] INFO  dbug - Beginning Test debugTest[1: chrome null]
+16:13:13.070 [pool-2-thread-2 : chrome * WINDOWS] INFO  dbug - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:13:13.070 [pool-2-thread-1 : firefox * WINDOWS] INFO  dbug - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:13:26.539 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] INFO  dbug - END
+16:13:28.386 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] INFO  dbug - Test debugTest[1: chrome null] succeeded.
+16:13:33.624 [pool-2-thread-1 : firefox 40.0 WINDOWS] INFO  dbug - END
+16:13:34.102 [pool-2-thread-1 : firefox 40.0 WINDOWS] INFO  dbug - Test debugTest[0: firefox null] succeeded.
+16:47:40.089 [main :  ] FATAL BaseTest - Could not load environment CSV file at debugEnvironments.csv, falling back to default config.
+16:47:40.091 [main :  ] FATAL BaseTest - Message was: C:\Selenium\RTData\debugEnvironments.csv (The system cannot find the path specified)
+16:47:40.118 [pool-2-thread-1 : firefox * WINDOWS] INFO  buildTests - Beginning Test ensureBaseTestWorks[0: firefox null]
+16:47:40.118 [pool-2-thread-2 : chrome * WINDOWS] INFO  buildTests - Beginning Test ensureBaseTestWorks[1: chrome null]
+16:47:40.121 [pool-2-thread-1 : firefox * WINDOWS] INFO  buildTests - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:47:40.121 [pool-2-thread-2 : chrome * WINDOWS] INFO  buildTests - Connecting to remote host at http://10.101.23.36:5555/wd/hub
+16:47:55.399 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] FATAL buildTests - Error closing remote web driver session: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.155)
+  (Driver info: chromedriver=2.7.236900,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\THINKS~1\AppData\Local\Temp\scoped_dir6828_27151}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=44.0.2403.155, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5a5ba9e49649bcffc1c0f1841813d386
+Command duration or timeout: 1.46 seconds
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\THINKS~1\AppData\Local\Temp\scoped_dir6828_27151}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=44.0.2403.155, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=53d506de-c028-4907-b85c-0c8faae58c9b, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 53d506de-c028-4907-b85c-0c8faae58c9b
+16:47:55.403 [pool-2-thread-2 : chrome 44.0.2403.155 WINDOWS] ERROR buildTests - Test ensureBaseTestWorks[1: chrome null] failed with no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.155)
+  (Driver info: chromedriver=2.7.236900,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\THINKS~1\AppData\Local\Temp\scoped_dir6828_27151}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=44.0.2403.155, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5a5ba9e49649bcffc1c0f1841813d386
+Command duration or timeout: 1.46 seconds
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\THINKS~1\AppData\Local\Temp\scoped_dir6828_27151}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=44.0.2403.155, platform=WIN8, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=53d506de-c028-4907-b85c-0c8faae58c9b, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 53d506de-c028-4907-b85c-0c8faae58c9b.
+16:48:12.912 [pool-2-thread-1 : firefox 40.0 WINDOWS] INFO  buildTests - Test ensureBaseTestWorks[0: firefox null] succeeded.

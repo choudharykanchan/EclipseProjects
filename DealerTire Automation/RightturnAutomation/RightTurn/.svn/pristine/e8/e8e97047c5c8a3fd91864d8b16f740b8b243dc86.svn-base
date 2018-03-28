@@ -1,0 +1,24 @@
+OS,Browser Name,Version
+WINDOWS 7,firefox,any
+WINDOWS 7,chrome,any
+WINDOWS 7,internet explorer,11
+WINDOWS 7,internet explorer,10
+WINDOWS 7,internet explorer,9
+WINDOWS 7,internet explorer,8
+WINDOWS 7,safari,5
+WINDOWS 8.1,firefox,any
+WINDOWS 8.1,chrome,any
+WINDOWS 8.1,internet explorer,11
+WINDOWS 8,internet explorer,10
+MAC 10.7,firefox,any
+MAC 10.7,chrome,any
+MAC 10.7,safari,5
+MAC 10.8,firefox,any
+MAC 10.8,chrome,any
+MAC 10.8,safari,6
+MAC 10.9,firefox,any
+MAC 10.9,chrome,any
+MAC 10.9,safari,7
+WINDOWS XP,internet explorer,8
+WINDOWS XP,firefox,any
+WINDOWS XP,chrome,any

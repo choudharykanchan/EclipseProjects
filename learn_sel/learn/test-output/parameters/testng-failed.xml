@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parameters]">
+  <parameter name="sUsername" value="testuser-1"/>
+  <parameter name="sPassword" value="Test@123"/>
+  <test name="testparameters(failed)">
+    <parameter name="sUsername" value="testuser-1"/>
+    <parameter name="sPassword" value="Test@123"/>
+    <classes>
+      <class name="TestNG.Parametes">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG.Parametes -->
+    </classes>
+  </test> <!-- testparameters(failed) -->
+</suite> <!-- Failed suite [parameters] -->

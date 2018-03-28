@@ -1,0 +1,7 @@
+11:47:44.573 [pool-2-thread-1 : firefox any WINDOWS] INFO  VehiclePageTesting - Beginning Test test[0: firefox any]
+11:47:44.585 [pool-2-thread-1 : firefox any WINDOWS] INFO  VehiclePageTesting - Connecting to remote host at http://localhost:5555/wd/hub
+11:49:40.458 [pool-2-thread-1 : firefox 40.0.3 WINDOWS] ERROR VehiclePageTesting - Test test[0: firefox any] failed with Timed out after 60 seconds waiting for title to contain "Location". Current title: ""
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.24.79', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown.
+11:49:40.627 [pool-2-thread-1 : firefox 40.0.3 WINDOWS] INFO  VehiclePageTesting - Saved error screenshot to D:\RightturnAutomation\RightTurn\RightTurn Functional Tests\screenshots\test_error.png

@@ -1,0 +1,5 @@
+<root>
+    <item name='cucumber.api.PendingException'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

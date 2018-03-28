@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="5918" started-at="2017-06-13T09:32:10Z" finished-at="2017-06-13T09:32:16Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="5504" started-at="2017-06-13T09:32:10Z" finished-at="2017-06-13T09:32:15Z">
+      <class name="SeleniumGrid.SeleniumGrid.CrossBrowserTesting">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SeleniumGrid.SeleniumGrid.CrossBrowserTesting@31a5c39e]" name="setup" is-config="true" duration-ms="3307" started-at="2017-06-13T15:02:10Z" finished-at="2017-06-13T15:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[59.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:SeleniumGrid.SeleniumGrid.CrossBrowserTesting@31a5c39e]" name="testParameterWithXML" duration-ms="1985" started-at="2017-06-13T15:02:13Z" finished-at="2017-06-13T15:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:SeleniumGrid.SeleniumGrid.CrossBrowserTesting@31a5c39e]" name="tearup" is-config="true" duration-ms="193" started-at="2017-06-13T15:02:15Z" finished-at="2017-06-13T15:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- SeleniumGrid.SeleniumGrid.CrossBrowserTesting -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="5918" started-at="2017-06-13T09:32:10Z" finished-at="2017-06-13T09:32:16Z">
+      <class name="SeleniumGrid.SeleniumGrid.CrossBrowserTesting">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SeleniumGrid.SeleniumGrid.CrossBrowserTesting@4883b407]" name="setup" is-config="true" duration-ms="3353" started-at="2017-06-13T15:02:10Z" finished-at="2017-06-13T15:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47.0.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:SeleniumGrid.SeleniumGrid.CrossBrowserTesting@4883b407]" name="testParameterWithXML" duration-ms="2433" started-at="2017-06-13T15:02:13Z" finished-at="2017-06-13T15:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:SeleniumGrid.SeleniumGrid.CrossBrowserTesting@4883b407]" name="tearup" is-config="true" duration-ms="132" started-at="2017-06-13T15:02:16Z" finished-at="2017-06-13T15:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- SeleniumGrid.SeleniumGrid.CrossBrowserTesting -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

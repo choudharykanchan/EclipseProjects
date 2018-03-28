@@ -1,0 +1,21 @@
+package learnSelenium;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+public class BrokenLinks {
+	public static List allLinks(WebDriver driver )
+	
+	{
+		List<WebElement> elementlist= driver.findElements(By.tagName("a"));
+		elementlist.addAll(driver.findElements(By.tagName("img")));
+		List<WebElement> finalList= new ArrayList();
+		for(WebElement element:elementlist)	
+		{
+			if (element.getAttribute("href")!=null)
+				finalList.add(element);
+		}
+	}
+	  return finalList;
+}

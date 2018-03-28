@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="59.0"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="47.0.2"/>
+    <classes>
+      <class name="SeleniumGrid.SeleniumGrid.CrossBrowserTesting">
+        <methods>
+          <include name="testParameterWithXML"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SeleniumGrid.SeleniumGrid.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="59.0"/>
+    <classes>
+      <class name="SeleniumGrid.SeleniumGrid.CrossBrowserTesting">
+        <methods>
+          <include name="testParameterWithXML"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SeleniumGrid.SeleniumGrid.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

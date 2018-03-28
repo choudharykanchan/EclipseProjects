@@ -1,0 +1,9 @@
+ServiceType,Width,Ratio,Diameter,Descriptor,Make,runflatQuestion?,InStaggered?,weSell?
+,31X,10.5,15,,Audi,no,no,yes
+,225,40,18,92W,BMW,no,yes,yes
+,225,45,17,91W,BMW,yes,yes,yes
+,195,60,15,88R,Kia,no,no,yes
+,235,65,17,104H,BMW,no,no,yes
+,225,45,17,91V,BMW,yes,no,yes
+,235,55,17,99H,Audi,yes,no,yes
+,245,45,18,100V,BMW,no,yes,yes

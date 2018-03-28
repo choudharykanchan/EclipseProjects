@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MultiBrowser]">
+  <parameter name="Browser" value="ie"/>
+  <test name="FF browser(failed)">
+    <parameter name="Browser" value="ie"/>
+    <classes>
+      <class name="TestNG.Multiplebrowsers">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestNG.Multiplebrowsers -->
+    </classes>
+  </test> <!-- FF browser(failed) -->
+</suite> <!-- Failed suite [MultiBrowser] -->

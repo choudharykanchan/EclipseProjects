@@ -1,0 +1,14 @@
+<suite name= "MultiBrowser">
+<test name= "IE browser">
+<parameter name="Browser" value= "firefox"/>
+<classes>
+<class name="TestNG.Multiplebrowsers" />
+ </classes>
+</test>>
+<test name="FF browser">
+<parameter name="Browser" value="ie" />
+<classes>
+<class name="TestNG.Multiplebrowsers"/>
+ </classes>
+</test>
+ </suite>

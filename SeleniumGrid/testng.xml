@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2">
+	<parameter name="username" value="Kanchan" />
+
+	<test name="testGuru1">
+
+		<classes>
+			<class name="SeleniumGrid.SeleniumGrid.Parameterisation">
+			</class>
+		</classes>
+	</test>
+	<test name="testGuru2">
+		<parameter name="username" value="Kanchan1" />
+		<classes>
+			<class name="SeleniumGrid.SeleniumGrid.Parameterisation">
+			</class>
+		</classes>
+	</test>
+</suite>

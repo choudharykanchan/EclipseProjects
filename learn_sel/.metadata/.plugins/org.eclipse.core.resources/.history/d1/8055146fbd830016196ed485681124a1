@@ -1,0 +1,13 @@
+package learnSelenium;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+public class BrokenLinks {
+	public static List allLinks(WebDriver driver )
+	
+	{
+		List<WebElement> element list= driver.findElements(By.tagName("a"));
+		
+	}
+
+}

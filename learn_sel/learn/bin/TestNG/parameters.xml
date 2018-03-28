@@ -1,0 +1,9 @@
+<suite name= "parameters" >
+<test name= "testparameters">
+<parameter name= "sUsername" value="testuser-1"/>
+<parameter name= "sPassword" value="Test@123"/>
+<classes>
+<class name="TestNG.Parametes"/>
+</classes>
+</test>
+</suite>

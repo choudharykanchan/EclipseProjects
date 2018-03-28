@@ -1,0 +1,7 @@
+<suite name= "DependingSuit">
+<test name= "testdepends">
+<classes>
+            <class name="TestNG.DependsOnMethods" />
+        </classes>
+    </test>
+</suite>

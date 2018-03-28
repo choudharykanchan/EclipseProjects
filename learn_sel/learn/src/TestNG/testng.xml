@@ -1,0 +1,9 @@
+
+
+<suite name="My sample Suite">
+    <test name="Search test">
+        <classes>
+            <class name="TestNG.NewTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,42 @@
+13:17:55.895 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test GrowSegment[0]
+13:17:55.899 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:17:58.433 [main : IE ] ERROR DealerAdvancedSearchTests - Test GrowSegment[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+13:17:58.443 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test InformSegment[0]
+13:17:58.444 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:18:00.451 [main : IE ] ERROR DealerAdvancedSearchTests - Test InformSegment[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+13:18:00.453 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test RegionTargetYes[0]
+13:18:00.454 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:18:02.466 [main : IE ] ERROR DealerAdvancedSearchTests - Test RegionTargetYes[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+13:18:02.470 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test AdvancedSearch[0]
+13:18:02.470 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:18:04.471 [main : IE ] ERROR DealerAdvancedSearchTests - Test AdvancedSearch[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+13:18:04.474 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test RegionTargetNo[0]
+13:18:04.476 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:18:06.480 [main : IE ] ERROR DealerAdvancedSearchTests - Test RegionTargetNo[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+13:18:06.483 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test ProtectSegment[0]
+13:18:06.484 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:18:08.487 [main : IE ] ERROR DealerAdvancedSearchTests - Test ProtectSegment[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.
+13:18:08.490 [main : IE ] INFO  DealerAdvancedSearchTests - Beginning Test DeepDiveSegment[0]
+13:18:08.491 [main : IE ] INFO  DealerAdvancedSearchTests - Connecting to remote host at http://localhost:4444/wd/hub
+13:18:10.497 [main : IE ] ERROR DealerAdvancedSearchTests - Test DeepDiveSegment[0] failed with Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'CPU0021', ip: '10.101.23.36', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver.

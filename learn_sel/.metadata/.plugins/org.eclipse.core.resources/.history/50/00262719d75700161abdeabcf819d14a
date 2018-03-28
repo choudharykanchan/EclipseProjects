@@ -1,0 +1,59 @@
+package learnSelenium;
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class RadioAndCheckoutButton {
+
+	public static void main(String args[])
+	{
+		WebDriver driver= new FirefoxDriver();
+		driver.get("http://toolsqa.com/automation-practice-form/");
+		driver.findElement(By.id("sex-1"));
+		List<WebElement> rd_buttonSex= driver.findElements(By.name("sex"));
+		Boolean bValue= false;
+		bValue= rd_buttonSex.get(0).isSelected();
+		if(bValue==true)
+		{
+			rd_buttonSex.get(1).click();
+			
+		}
+		else
+		{
+			rd_buttonSex.get(0).click();
+		}
+		
+		driver.findElement(By.id("exp-2")).click();
+		List<WebElement> check_boxes= driver.findElements(By.name("profession"));
+		int length= check_boxes.size();
+		
+	
+		for(int i=0,i< length,i++)
+		{
+			String sValue= check_boxes.get(i).getAttribute("Value");
+			if (sValue.equalsIgnoreCase("Automation Tester"))
+			{
+				check_boxes.get(i).click();
+				break;
+				
+			}
+			
+			driver.findElement(By.cssSelector("input[value=Selenium IDE]")).click();
+			driver.quit();
+			
+		}
+	}
+		
+		
+		
+		
+		
+		
+	}
+
+}

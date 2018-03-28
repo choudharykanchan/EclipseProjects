@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="2" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29843" started-at="2017-09-22T12:07:09Z" finished-at="2017-09-22T12:07:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29843" started-at="2017-09-22T12:07:09Z" finished-at="2017-09-22T12:07:39Z">
+      <class name="Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="setup" is-config="true" duration-ms="13950" started-at="2017-09-22T17:37:09Z" finished-at="2017-09-22T17:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="test" duration-ms="2468" started-at="2017-09-22T17:37:23Z" data-provider="testData" finished-at="2017-09-22T17:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr97984]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ymebetu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login.test(Login.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="teardown" is-config="true" duration-ms="217" started-at="2017-09-22T17:37:26Z" finished-at="2017-09-22T17:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="setup" is-config="true" duration-ms="11887" started-at="2017-09-22T17:37:26Z" finished-at="2017-09-22T17:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="test" duration-ms="1202" started-at="2017-09-22T17:37:38Z" data-provider="testData" finished-at="2017-09-22T17:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'CPU0021', ip: '192.168.12.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\THINKS~1\AppData\Local\Temp\rust_mozprofile.lOE1sgjIevO2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9936, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d3418094-6e5b-4df4-9b4b-2bb2ecb564ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'CPU0021', ip: '192.168.12.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\THINKS~1\AppData\Local\Temp\rust_mozprofile.lOE1sgjIevO2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9936, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d3418094-6e5b-4df4-9b4b-2bb2ecb564ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:380)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:133)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:128)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login.test(Login.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="teardown" is-config="true" duration-ms="0" started-at="2017-09-22T17:37:39Z" finished-at="2017-09-22T17:37:39Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[: 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'CPU0021', ip: '192.168.12.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\THINKS~1\AppData\Local\Temp\rust_mozprofile.lOE1sgjIevO2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9936, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d3418094-6e5b-4df4-9b4b-2bb2ecb564ec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'CPU0021', ip: '192.168.12.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\THINKS~1\AppData\Local\Temp\rust_mozprofile.lOE1sgjIevO2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.3, moz:processID=9936, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d3418094-6e5b-4df4-9b4b-2bb2ecb564ec
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:118)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:532)
+	at Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login.teardown(Login.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="setup" is-config="true" duration-ms="0" started-at="2017-09-22T17:37:39Z" finished-at="2017-09-22T17:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="test" duration-ms="3" started-at="2017-09-22T17:37:39Z" data-provider="testData" finished-at="2017-09-22T17:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="teardown" is-config="true" duration-ms="0" started-at="2017-09-22T17:37:39Z" finished-at="2017-09-22T17:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="setup" is-config="true" duration-ms="0" started-at="2017-09-22T17:37:39Z" finished-at="2017-09-22T17:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test(java.lang.String, java.lang.String)[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="test" duration-ms="14" started-at="2017-09-22T17:37:39Z" data-provider="testData" finished-at="2017-09-22T17:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login@6a41eaa2]" name="teardown" is-config="true" duration-ms="0" started-at="2017-09-22T17:37:39Z" finished-at="2017-09-22T17:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Guru99LiveSeleniumProject.Guru99LiveSeleniumProject.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

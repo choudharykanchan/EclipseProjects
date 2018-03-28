@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="482" key="DIALOG_X_ORIGIN"/>
+		<item value="68" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="250" key="dialogHeight"/>
+		<item value="350" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.preferences.ClasspathVariablesPreferencePage"/>
+			<item value="org.eclipse.pde.ui.updateClasspath"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.commands"/>
+		</list>
+		<list key="textArray">
+			<item value="classpath"/>
+			<item value="classpa"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\thinksysuser\Desktop\FabHotels1"/>
+			<item value="C:\Users\thinksysuser\Desktop\FabHotels"/>
+			<item value="C:\Users\thinksysuser\Desktop\ppppppppppppppppp"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.FileSystem" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.m2e.core.wizards.Maven2ImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.springsource.ide.eclipse.gradle.wizards.import.category"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+</section>

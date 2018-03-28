@@ -1,0 +1,35 @@
+2017-09-14 15:42:56 Debug message 
+2017-09-14 15:42:56 Info messagae
+2017-09-14 15:42:56 Warn message
+2017-09-14 15:42:56 Error meassage
+2017-09-14 15:42:56 Fatal meassage
+[DEBUG] 2017-09-14 15:45:29 Debug message 
+[INFO] 2017-09-14 15:45:29 Info messagae
+[WARN] 2017-09-14 15:45:29 Warn message
+[ERROR] 2017-09-14 15:45:29 Error meassage
+[FATAL] 2017-09-14 15:45:29 Fatal meassage
+[DEBUG] 2017-09-18 15:03:45 Debug message 
+[INFO] 2017-09-18 15:03:45 Info messagae
+[WARN] 2017-09-18 15:03:45 Warn message
+[ERROR] 2017-09-18 15:03:45 Error meassage
+[FATAL] 2017-09-18 15:03:45 Fatal meassage
+[DEBUG] 2017-09-18 15:12:24 Debug message 
+[INFO] 2017-09-18 15:12:24 Info messagae
+[WARN] 2017-09-18 15:12:24 Warn message
+[ERROR] 2017-09-18 15:12:24 Error meassage
+[FATAL] 2017-09-18 15:12:24 Fatal meassage
+[DEBUG] 2017-09-18 15:13:16 Debug message 
+[INFO] 2017-09-18 15:13:16 Info messagae
+[WARN] 2017-09-18 15:13:16 Warn message
+[ERROR] 2017-09-18 15:13:16 Error meassage
+[FATAL] 2017-09-18 15:13:16 Fatal meassage
+[DEBUG] 2018-02-26 14:34:03 Debug message 
+[INFO] 2018-02-26 14:34:03 Info messagae
+[WARN] 2018-02-26 14:34:03 Warn message
+[ERROR] 2018-02-26 14:34:03 Error meassage
+[FATAL] 2018-02-26 14:34:03 Fatal meassage
+[DEBUG] 2018-02-26 14:34:08 Debug message 
+[INFO] 2018-02-26 14:34:08 Info messagae
+[WARN] 2018-02-26 14:34:08 Warn message
+[ERROR] 2018-02-26 14:34:08 Error meassage
+[FATAL] 2018-02-26 14:34:08 Fatal meassage

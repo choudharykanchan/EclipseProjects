@@ -1,0 +1,1080 @@
+!SESSION 2015-08-12 12:04:51.687 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.6.0_25
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-12 12:06:16.413
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-12 12:36:24.413
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-12 12:36:24.421
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thinksysuser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-08-12 13:00:06.269 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-08-12 13:00:31.928
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-12 13:00:32.594
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 0 2015-08-12 13:00:41.581
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-4,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-2,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.5.0.20140606-0033 [231]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.5.0.20140606-0033"; singleton:="true" [id=231] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3294)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3270)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2883)
+	at org.eclipse.jdt.internal.core.JavaModelManager$9.run(JavaModelManager.java:2808)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2846)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1932)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3247)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:221)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2065)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-12 13:00:50.364
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-12 13:00:50.368
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thinksysuser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:16:53.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:16:53.329
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:16:55.594
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:16:55.675
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:16:57.345
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:16:57.453
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:17:01.639
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:17:01.655
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:17:04.544
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:17:04.554
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:17:05.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-12 13:17:05.343
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2015-08-13 11:08:27.138 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-13 11:11:17.568
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:11:43.164
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:11:43.172
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thinksysuser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:20:16.829
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:20:16.841
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:20:50.679
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:21.838
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:23.140
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:27.139
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:27.147
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:27.813
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:28.246
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:28.263
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:23:31.007
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+!SESSION 2015-08-13 11:28:17.904 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-13 11:28:25.327
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:28:38.960
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:28:38.965
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thinksysuser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:28:50.637
+!MESSAGE Error checking for warnings
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:28:50.660
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:28:51.618
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2133)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2071)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:540)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2015)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1182)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.handleLabelProviderChanged(ProblemTreeViewer.java:223)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:99)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:69)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:78)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:446)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:443)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:536)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:28:51.619
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:28:52.228
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2133)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2071)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:540)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2015)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1182)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.handleLabelProviderChanged(ProblemTreeViewer.java:223)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:99)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:69)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:78)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:446)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:443)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:536)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:28:52.229
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:28:53.261
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2133)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2071)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:540)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2015)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1182)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.handleLabelProviderChanged(ProblemTreeViewer.java:223)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:99)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:69)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:78)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:446)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:443)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:536)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:28:53.262
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:28:55.601
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2133)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2071)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:540)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2015)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1182)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.handleLabelProviderChanged(ProblemTreeViewer.java:223)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:99)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:69)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:78)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:446)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:443)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:536)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:28:55.602
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:28:58.702
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:843)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$1.run(AbstractTreeViewer.java:818)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:791)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:762)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleTreeExpand(AbstractTreeViewer.java:1495)
+	at org.eclipse.jface.viewers.TreeViewer.handleTreeExpand(TreeViewer.java:903)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$4.treeExpanded(AbstractTreeViewer.java:1507)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:132)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Tree.wmNotifyChild(Tree.java:7633)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5618)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1935)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5169)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4666)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Tree.callWindowProc(Tree.java:1553)
+	at org.eclipse.swt.widgets.Tree.WM_LBUTTONDOWN(Tree.java:6501)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4646)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6024)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:28:58.703
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:28:59.841
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2133)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2071)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:540)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2015)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1182)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.handleLabelProviderChanged(ProblemTreeViewer.java:223)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:99)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:69)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:78)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:446)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:443)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:536)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:28:59.842
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-13 11:29:00.937
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.findMaxProblemSeverity(Resource.java:1051)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.getPackageErrorTicksFromMarkers(ProblemsLabelDecorator.java:346)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.computeAdornmentFlags(ProblemsLabelDecorator.java:212)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computePackageAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:47)
+	at org.eclipse.jdt.internal.ui.viewsupport.TreeHierarchyLayoutProblemsDecorator.computeAdornmentFlags(TreeHierarchyLayoutProblemsDecorator.java:56)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerProblemsDecorator.computeAdornmentFlags(PackageExplorerProblemsDecorator.java:35)
+	at org.eclipse.jdt.ui.ProblemsLabelDecorator.decorateImage(ProblemsLabelDecorator.java:170)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.decorateImage(JavaUILabelProvider.java:134)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaUILabelProvider.getImage(JavaUILabelProvider.java:149)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerLabelProvider.getImage(PackageExplorerLabelProvider.java:140)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:195)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:173)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:121)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:136)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:154)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:949)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1029)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:472)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2150)
+	at org.eclipse.jface.viewers.StructuredViewer.internalUpdate(StructuredViewer.java:2133)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2071)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:540)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:2015)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1182)
+	at org.eclipse.jdt.internal.ui.viewsupport.ProblemTreeViewer.handleLabelProviderChanged(ProblemTreeViewer.java:223)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:99)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:72)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:69)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:78)
+	at org.eclipse.ui.internal.decorators.DecoratorManager$1.run(DecoratorManager.java:446)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:443)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:536)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2015-08-13 11:29:00.938
+!MESSAGE Resource '/RightTurn Framework/src/resources/config.properties' does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:29:52.989
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM D:\RightTurn\RightTurn Framework\pom.xml: D:\RightTurn\RightTurn Framework\pom.xml (The system cannot find the file specified) @ 
+ for project  at D:\RightTurn\RightTurn Framework\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:29:54.338
+!MESSAGE Resource '/RightTurn Framework/pom.xml' does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:29:54.347
+!MESSAGE Resource '/RightTurn Framework/pom.xml' does not exist.
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2015-08-13 11:29:55.660
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:614)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1442)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:439)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.updateParentAction(MavenPomEditorPage.java:392)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.access$2(MavenPomEditorPage.java:388)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage$4.run(MavenPomEditorPage.java:260)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2015-08-13 11:29:55.667
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:614)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1442)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:439)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:29:55.673
+!MESSAGE Failed to populate overview panel
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2015-08-13 11:29:55.701
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:614)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1442)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:439)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-13 11:29:55.708
+!MESSAGE Failed to populate overview panel
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-08-13 11:30:44.533
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2015-08-13 11:30:44.538
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-08-13 11:30:44.538
+!MESSAGE The project description file (.project) for 'RightTurn Framework' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-08-13 11:30:44.538
+!MESSAGE The project description file (.project) for 'RightTurn Functional Testing' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2015-08-13 11:30:46.809 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-08-13 11:30:53.650
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-13 11:30:54.358
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:31:00.833
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:31:00.847
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thinksysuser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:31:02.264
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:31:02.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:31:57.578
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:31:58.372
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:31:59.693
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:32:02.668
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:32:04.382
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:32:07.132
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+!SESSION 2015-08-13 11:35:29.333 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-13 11:35:35.119
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:35:45.817
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-08-13 11:35:45.959
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\thinksysuser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:47:16.390
+!MESSAGE The artifact jtds:jtds:jar:1.2 has been relocated to net.sourceforge.jtds:jtds:jar:1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:47:19.699
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:47:19.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:47:20.452
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 11:47:20.481
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:42:10.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:42:10.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:42:10.429
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:42:10.468
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:49:59.735
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:49:59.746
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:49:59.865
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-13 12:49:59.884
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

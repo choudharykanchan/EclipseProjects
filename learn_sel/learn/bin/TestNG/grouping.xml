@@ -1,0 +1,13 @@
+<suite name="Groping suite">
+<test name="Grop practice">
+<groups>
+<run>
+<include name= "Car"/>
+</run>
+</groups>
+<classes>
+<class name="TestNG.Grouping"/>
+</classes>
+</test>
+ 
+</suite>
